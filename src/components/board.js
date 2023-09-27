@@ -31,7 +31,7 @@ export default function Board() {
       <div className="container">
         <div className="status">{status}</div>
         <div className="main">
-          <div className="first-row">
+          <div className="row">
             <Square
               value={val[0]}
               handleClick={() => {
@@ -51,7 +51,7 @@ export default function Board() {
               }}
             />
           </div>
-          <div className="second-row">
+          <div className="row">
             <Square
               value={val[3]}
               handleClick={() => {
@@ -71,7 +71,7 @@ export default function Board() {
               }}
             />
           </div>
-          <div className="third-row">
+          <div className="row">
             <Square
               value={val[6]}
               handleClick={() => {

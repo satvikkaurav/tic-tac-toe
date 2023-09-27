@@ -3,5 +3,11 @@
     height: 3rem;
     width: 3rem;
     font-size: 1.5rem;
-    color: black;
+    color: #000000;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
